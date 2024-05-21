@@ -1,0 +1,726 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>주택공사 CLONE</title>
+  <link rel="stylesheet" href="css/grid.css">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+  <script src="./jau/02.js"></script>
+</head>
+<body>
+   <div class="header-background"></div>
+   <header> 
+      <a href="#" class="logo">한국고지부택곰사</a>
+      <nav>
+         <ul class="main-nav">
+             <li><a href="#">새소식</a>
+                <div class="d-submenu-main">
+                 <ul class="d-submenu">
+                     <li>
+                         <h1>새소식</h1>
+                         <p>보다 나은 환경, 각자의 삶터를
+                            꾸려갈 수 있게 한국고지부택곰사가
+                            함께합니다.</p>
+                     </li>
+                     <li>
+                        <div class="d-sub-title">
+                         <a href="#">공지ㆍ공모</a>
+                           <span><i class="ri-arrow-down-s-line"></i></span>
+                        </div>
+                        <ul>
+                           <li><a href="#">공지사항</a></li>
+                           <li><a href="#">공모안내</a></li>
+                        </ul>
+                     </li>
+                     <li>
+                         <div class="d-sub-title">
+                            <a href="#">채용정보</a>
+                            <span><i class="ri-arrow-down-s-line"></i></span>
+                         </div>
+                         <ul>
+                            <li><a href="#">LH인재상</a></li>
+                            <li><a href="#">NCS 기반 채용</a></li>
+                            <li><a href="#">직무설명서</a></li>
+                            <li><a href="#">정규직 채용공고</a></li>
+                            <li><a href="#">비정규직 채용공고</a></li>
+                            <li><a href="#">공지사항</a></li>
+                         </ul>
+                     </li>
+                     <li></li>
+                 </ul>  
+                </div> 
+             </li>
+             <li><a href="#">소통ㆍ신고</a>
+                <div class="d-submenu-main">
+                <ul class="d-submenu">
+                   <li>
+                       <h1>소통ㆍ신고</h1>
+                       <p>보다 나은 환경, 각자의 삶터를
+                          꾸려갈 수 있게 한국고지부택곰사가
+                          함께합니다.</p>
+                   </li>
+                   <li>메뉴1</li>
+                   <li>메뉴2</li>
+                   <li>메뉴3</li>
+               </ul>  
+             </li>
+             <li><a href="#">정보공개</a>
+                <div class="d-submenu-main">
+                <ul class="d-submenu">
+                   <li>
+                       <h1>정보공개</h1>
+                       <p>보다 나은 환경, 각자의 삶터를
+                          꾸려갈 수 있게 한국고지부택곰사가
+                          함께합니다.</p>
+                   </li>
+                   <li>메뉴1</li>
+                   <li>메뉴2</li>
+                   <li>메뉴3</li>
+               </ul>  
+             </div>           
+             </li>
+             <li><a href="#">사업소개</a>
+                <div class="d-submenu-main">
+                <ul class="d-submenu">
+                   <li>
+                       <h1>사업소개</h1>
+                       <p>보다 나은 환경, 각자의 삶터를
+                          꾸려갈 수 있게 한국고지부택곰사가
+                          함께합니다.</p>
+                   </li>
+                   <li>메뉴1</li>
+                   <li>메뉴2</li>
+                   <li>메뉴3</li>
+               </ul> 
+               </div>           
+             </li>
+             <li><a href="#">뉴스룸</a>
+                <div class="d-submenu-main">
+                <ul class="d-submenu">
+                   <li>
+                       <h1>뉴스룸</h1>
+                       <p>보다 나은 환경, 각자의 삶터를
+                          꾸려갈 수 있게 한국고지부택곰사가
+                          함께합니다.</p>
+                   </li>
+                   <li>메뉴1</li>
+                   <li>메뉴2</li>
+                   <li>메뉴3</li>
+               </ul>  
+               </div>
+             </li>
+             <li><a href="#">ESG경영</a>
+                <div class="d-submenu-main">
+                <ul class="d-submenu">
+                   <li>
+                       <h1>ESG경영</h1>
+                       <p>보다 나은 환경, 각자의 삶터를
+                          꾸려갈 수 있게 한국고지부택곰사가
+                          함께합니다.</p>
+                   </li>
+                   <li>메뉴1</li>
+                   <li>메뉴2</li>
+                   <li>메뉴3</li>
+               </ul> 
+               </div>
+             </li>
+             <li><a href="#">공사소개</a>
+                <div class="d-submenu-main">
+                <ul class="d-submenu">
+                   <li>
+                       <h1>공사소개</h1>
+                       <p>보다 나은 환경, 각자의 삶터를
+                          꾸려갈 수 있게 한국고지부택곰사가
+                          함께합니다.</p>
+                   </li>
+                   <li>메뉴1</li>
+                   <li>메뉴2</li>
+                   <li>메뉴3</li>
+               </ul>
+               </div> 
+             </li>
+         </ul>
+      </nav>
+      <div class="right">
+         <form id="search" class="searchform">
+             <input type="search" name="search" class="search">
+             <i class="ri-search-line search-icon"></i>
+         </form>
+         <button type="button" class="btn-h-line">
+             <i class="ri-global-line"></i>
+             <span>Eng</span>
+         </button>
+         <button type="button" class="btn-h-line btn-list">
+             <i class="ri-menu-4-fill"></i>
+         </button>
+      </div>
+      <!-- global full nav -->
+      <nav id="gnb" class="active">
+ <ul id="head_menu_all" class="topmenu_all">
+ <li class="lnb1 mnfirst">
+ <a href="/menu.es?mid=a10601000000">새소식</a>
+ <div class="submenu">
+ <ul class="sub06">
+ <li class="sub01 subfirst __plus"><a href="/menu.es?mid=a10601010000">공지ㆍ공모</a>
+       <ul class="lnb-detail">
+          <li class="lnb-detail-item"><a href="/menu.es?mid=a10601010000">공지사항</a></li>
+          <li class="lnb-detail-item"><a href="/menu.es?mid=a10601020000">공모안내</a></li>
+       </ul>
+ </li>
+ <li class="sub02 sublast __plus"><a href="/menu.es?mid=a10602010000">채용정보</a>
+       <ul class="lnb-detail">
+          <li class="lnb-detail-item"><a href="/menu.es?mid=a10602010000">LH인재상</a></li>
+          <li class="lnb-detail-item"><a href="/menu.es?mid=a10602020100">NCS 기반 채용</a></li>
+          <li class="lnb-detail-item"><a href="/menu.es?mid=a10602030000">직무설명서</a></li>
+          <li class="lnb-detail-item"><a href="/menu.es?mid=a10602040000">정규직 채용공고</a></li>
+          <li class="lnb-detail-item"><a href="/menu.es?mid=a10602050000">비정규직 채용공고</a></li>
+          <li class="lnb-detail-item"><a href="/menu.es?mid=a10602060000">공지사항</a></li>
+       </ul>
+ </li>
+ </ul>
+ </div>
+ </li>
+ <li class="lnb2">
+ <a href="/menu.es?mid=a10301000000">소통ㆍ신고</a>
+ <div class="submenu">
+ <ul class="sub03">
+ <li class="sub01 subfirst"><a href="/menu.es?mid=a10301000000">소통과 신고안내</a></li>
+ <li class="sub02 __plus"><a href="/menu.es?mid=a10302010000">고객의소리(민원신청)</a>
+       <ul class="lnb-detail">
+          <li class="lnb-detail-item"><a href="/menu.es?mid=a10302010000">민원신청</a></li>
+          <li class="lnb-detail-item"><a href="/menu.es?mid=a10302020000">증명원신청</a></li>
+       </ul>
+ </li>
+ <li class="sub03 __plus"><a href="/menu.es?mid=a10303020000">국민참여 혁신방</a>
+       <ul class="lnb-detail">
+          <li class="lnb-detail-item"><a href="/menu.es?mid=a10303020000">국민참여 혁신제도 안내</a></li>
+          <li class="lnb-detail-item"><a href="/menu.es?mid=a10303030000">국민참여 혁신안 제출</a></li>
+          <li class="lnb-detail-item"><a href="/menu.es?mid=a10303040000">제안심사목록</a></li>
+       </ul>
+ </li>
+ <li class="sub04"><a href="/menu.es?mid=a10304000000">직원칭찬</a></li>
+ <li class="sub05 __plus"><a href="/menu.es?mid=a10305010000">주택기술 플랫폼</a>
+       <ul class="lnb-detail">
+          <li class="lnb-detail-item"><a href="/menu.es?mid=a10305010000">고객제안 주택기술 플랫폼</a></li>
+          <li class="lnb-detail-item"><a href="/menu.es?mid=a10305020000">층간소음 기술마켓</a></li>
+       </ul>
+ </li>
+ <li class="sub06 __plus"><a href="/menu.es?mid=a10306010000">부패ㆍ부조리신고</a>
+       <ul class="lnb-detail">
+          <li class="lnb-detail-item"><a href="/menu.es?mid=a10306010000">부동산 투기행위 신고</a></li>
+          <li class="lnb-detail-item"><a href="/menu.es?mid=a10306020000">사업예정지 투기행위 신고</a></li>
+          <li class="lnb-detail-item"><a href="/menu.es?mid=a10306030000">부조리·갑질·전관유착 신고</a></li>
+          <li class="lnb-detail-item"><a href="/menu.es?mid=a10306040000">청탁금지법 위반 신고</a></li>
+       </ul>
+ </li>
+ <li class="sub07 __plus"><a href="/menu.es?mid=a10307030000">사업관련신고</a>
+       <ul class="lnb-detail">
+          <li class="lnb-detail-item"><a href="/menu.es?mid=a10307030000">불공정 하도급 신고</a></li>
+          <li class="lnb-detail-item"><a href="/menu.es?mid=a10307040000">임대주택 불법거래 신고</a></li>
+          <li class="lnb-detail-item"><a href="/menu.es?mid=a10307050000">종합심사낙찰제 계약위반 신고</a></li>
+          <li class="lnb-detail-item"><a href="/menu.es?mid=a10307020000">예산낭비 신고</a></li>
+       </ul>
+ </li>
+ <li class="sub08"><a href="/menu.es?mid=a10308000000">규제입증책임제</a></li>
+ <li class="sub09 __plus"><a href="/menu.es?mid=a10309010000">외부기관으로 신고</a>
+       <ul class="lnb-detail">
+          <li class="lnb-detail-item"><a href="https://ncp.clean.go.kr/cmn/secCtfcKMC.do?menuCode=acs&amp;mapAcs=Y&amp;insttCd=B552555" target="_blank" rel="noopener noreferrer" title="새창으로 이동" class="linkWindow">청렴포털 홈페이지</a></li>
+          <li class="lnb-detail-item"><a href="http://www.molit.go.kr/USR/WPGE0201/m_37055/DTL.jsp" target="_blank" rel="noopener noreferrer" title="새창으로 이동" class="linkWindow">인사부조리, 채용비리</a></li>
+       </ul>
+ </li>
+ <li class="sub10 sublast"><a href="/menu.es?mid=a10310000000">콜센터</a></li>
+ </ul>
+ </div>
+ </li>
+ <li class="lnb3">
+ <a href="/menu.es?mid=a10101000000">정보공개</a>
+ <div class="submenu">
+ <ul class="sub01">
+ <li class="sub01 subfirst"><a href="/menu.es?mid=a10101000000">정보공개제도 이용안내</a></li>
+ <li class="sub02 __plus"><a href="/menu.es?mid=a10102010000">정보공개제도안내</a>
+       <ul class="lnb-detail">
+          <li class="lnb-detail-item"><a href="/menu.es?mid=a10102010000">정보공개제도 개요</a></li>
+          <li class="lnb-detail-item"><a href="/menu.es?mid=a10102020000">정보공개 처리절차</a></li>
+          <li class="lnb-detail-item"><a href="/menu.es?mid=a10102030000">불복 절차 안내</a></li>
+          <li class="lnb-detail-item"><a href="/menu.es?mid=a10102040000">서식 등 기타사항</a></li>
+       </ul>
+ </li>
+ <li class="sub03 __plus"><a href="/menu.es?mid=a10103010000">사전정보공표</a>
+       <ul class="lnb-detail">
+          <li class="lnb-detail-item"><a href="/menu.es?mid=a10103010000">전체</a></li>
+          <li class="lnb-detail-item"><a href="/menu.es?mid=a10103020000">경영일반</a></li>
+          <li class="lnb-detail-item"><a href="/menu.es?mid=a10103030000">공사 및 용역현황</a></li>
+          <li class="lnb-detail-item"><a href="/menu.es?mid=a10103040000">부동산 정보</a></li>
+          <li class="lnb-detail-item"><a href="/menu.es?mid=a10103050000">예산, 회계, 감사</a></li>
+          <li class="lnb-detail-item"><a href="/menu.es?mid=a10103060000">주요 사업현황</a></li>
+          <li class="lnb-detail-item"><a href="/menu.es?mid=a10103070000">홍보, 보안, 정보처리</a></li>
+       </ul>
+ </li>
+ <li class="sub04"><a href="/menu.es?mid=a10104000000">정보공개목록</a></li>
+ <li class="sub05"><a href="/menu.es?mid=a10105000000">정보공개청구</a></li>
+ <li class="sub06"><a href="/menu.es?mid=a10106000000">이의신청청구</a></li>
+ <li class="sub07 __plus"><a href="/menu.es?mid=a10107010000">사업실명제</a>
+       <ul class="lnb-detail">
+          <li class="lnb-detail-item"><a href="/menu.es?mid=a10107010000">사업실명제 개요 및 선정기준</a></li>
+          <li class="lnb-detail-item"><a href="/menu.es?mid=a10107020000">사업실명제 사업리스트</a></li>
+       </ul>
+ </li>
+ <li class="sub08 __plus"><a href="/menu.es?mid=a10108010000">사규ㆍ법무</a>
+       <ul class="lnb-detail">
+          <li class="lnb-detail-item"><a href="/menu.es?mid=a10108010000">공사법ㆍ시행령</a></li>
+          <li class="lnb-detail-item"><a href="/menu.es?mid=a10108020000">규정ㆍ시행세칙</a></li>
+          <li class="lnb-detail-item"><a href="/menu.es?mid=a10108030000">법률고문</a></li>
+       </ul>
+ </li>
+ <li class="sub09 __plus"><a href="/menu.es?mid=a10109010000">정보보호</a>
+       <ul class="lnb-detail">
+          <li class="lnb-detail-item"><a href="/menu.es?mid=a10109010000">개인정보관리현황</a></li>
+       </ul>
+ </li>
+ <li class="sub10 sublast __plus"><a href="/menu.es?mid=a10110010000">공공데이터개방</a>
+       <ul class="lnb-detail">
+          <li class="lnb-detail-item"><a href="/menu.es?mid=a10110010000">공공데이터 이용정책</a></li>
+          <li class="lnb-detail-item"><a href="/menu.es?mid=a10110020000">공공데이터 개방목록</a></li>
+          <li class="lnb-detail-item"><a href="/menu.es?mid=a10110030000">공공데이터 소통채널</a></li>
+       </ul>
+ </li>
+ </ul>
+ </div>
+ </li>
+ <li class="lnb4">
+ <a href="/menu.es?mid=a10401000000">사업소개</a>
+ <div class="submenu">
+ <ul class="sub04">
+ <li class="sub01 subfirst __plus"><a href="/menu.es?mid=a10401010000">주거복지사업</a>
+       <ul class="lnb-detail">
+          <li class="lnb-detail-item"><a href="/menu.es?mid=a10401010000">임대주택 유형 안내</a></li>
+          <li class="lnb-detail-item"><a href="/menu.es?mid=a10401020100">청년ㆍ신혼부부계층 임대주택</a></li>
+          <li class="lnb-detail-item"><a href="/menu.es?mid=a10401030100">주거취약계층 임대주택</a></li>
+          <li class="lnb-detail-item"><a href="/menu.es?mid=a10401040100">무주택 서민 임대주택</a></li>
+          <li class="lnb-detail-item"><a href="/menu.es?mid=a10401050100">주거급여</a></li>
+          <li class="lnb-detail-item"><a href="/menu.es?mid=a10401060100">공동주택관리지원</a></li>
+          <li class="lnb-detail-item"><a href="/menu.es?mid=a10401070000">공동주택 분쟁조정</a></li>
+          <li class="lnb-detail-item"><a href="/menu.es?mid=a10401080000">LH희망상가</a></li>
+       </ul>
+ </li>
+ <li class="sub02 __plus"><a href="/menu.es?mid=a10402010000">주택사업</a>
+       <ul class="lnb-detail">
+          <li class="lnb-detail-item"><a href="/menu.es?mid=a10402010100">공공분양주택 공급</a></li>
+          <li class="lnb-detail-item"><a href="/menu.es?mid=a10402020100">오픈마켓</a></li>
+          <li class="lnb-detail-item"><a href="/menu.es?mid=a10402030000">주택기술품질자료</a></li>
+          <li class="lnb-detail-item"><a href="/menu.es?mid=a10402040000">외부 품질점검단</a></li>
+          <li class="lnb-detail-item"><a href="/menu.es?mid=a10402050100">부동산금융</a></li>
+       </ul>
+ </li>
+ <li class="sub03 __plus"><a href="/menu.es?mid=a10403010000">토지사업</a>
+       <ul class="lnb-detail">
+          <li class="lnb-detail-item"><a href="/menu.es?mid=a10403010300">신도시조성</a></li>
+          <li class="lnb-detail-item"><a href="/menu.es?mid=a10403020000">스마트시티 조성</a></li>
+          <li class="lnb-detail-item"><a href="/menu.es?mid=a10403030100">도시재생</a></li>
+          <li class="lnb-detail-item"><a href="/menu.es?mid=a10403040100">도시정비</a></li>
+          <li class="lnb-detail-item"><a href="/menu.es?mid=a10403050000">국유지개발사업</a></li>
+          <li class="lnb-detail-item"><a href="/menu.es?mid=a10403060100">노후건축물 정비</a></li>
+          <li class="lnb-detail-item"><a href="/menu.es?mid=a10403070000">행정중심복합도시</a></li>
+          <li class="lnb-detail-item"><a href="/menu.es?mid=a10403080100">산업/연구/물류/경제자유</a></li>
+          <li class="lnb-detail-item"><a href="/menu.es?mid=a10403090000">토지은행</a></li>
+          <li class="lnb-detail-item"><a href="/menu.es?mid=a10403100100">해외사업</a></li>
+          <li class="lnb-detail-item"><a href="/menu.es?mid=a10403110100">일반토지매입</a></li>
+          <li class="lnb-detail-item"><a href="/menu.es?mid=a10403120000">공공정원조성</a></li>
+          <li class="lnb-detail-item"><a href="/menu.es?mid=a10403140000">남북사업</a></li>
+       </ul>
+ </li>
+ <li class="sub04 __plus"><a href="/menu.es?mid=a10404010000">연구개발</a>
+       <ul class="lnb-detail">
+          <li class="lnb-detail-item"><a href="/menu.es?mid=a10404010100">특허</a></li>
+          <li class="lnb-detail-item"><a href="/menu.es?mid=a10404020000">국외출장자료</a></li>
+       </ul>
+ </li>
+ <li class="sub05 sublast __plus"><a href="/menu.es?mid=a10405010000">기타사업</a>
+       <ul class="lnb-detail">
+          <li class="lnb-detail-item"><a href="/menu.es?mid=a10405010000">공간정보사업</a></li>
+          <li class="lnb-detail-item"><a href="/menu.es?mid=a10405020000">집단에너지사업</a></li>
+          <li class="lnb-detail-item"><a href="/menu.es?mid=a10405030100">기업입지지원서비스</a></li>
+       </ul>
+ </li>
+ </ul>
+ </div>
+ </li>
+ <li class="lnb5">
+ <a href="/menu.es?mid=a10501000000">뉴스룸</a>
+ <div class="submenu">
+ <ul class="sub05"><li class="mobile"><a href="/user/news/main?mid=a10501000000">뉴스룸 메인</a></li>
+ <li class="sub02 subfirst"><a href="/menu.es?mid=a10502000000">보도자료</a></li>
+ <li class="sub03"><a href="/menu.es?mid=a10503000000">LH 매거진</a></li>
+ <li class="sub04"><a href="/menu.es?mid=a10504000000">LH TV</a></li>
+ <li class="sub05 sublast"><a href="/menu.es?mid=a10505000000">소셜미디어</a></li>
+ </ul>
+ </div>
+ </li>
+ <li class="lnb6">
+ <a href="/menu.es?mid=a10201000000">ESG경영</a>
+ <div class="submenu">
+ <ul class="sub02">
+ <li class="sub01 subfirst __plus"><a href="/menu.es?mid=a10201010000">LH의 ESG경영</a>
+       <ul class="lnb-detail">
+          <li class="lnb-detail-item"><a href="/menu.es?mid=a10201010100">ESG경영 추진체계</a></li>
+          <li class="lnb-detail-item"><a href="/menu.es?mid=a10201020100">ESG 경영 핵심성과</a></li>
+          <li class="lnb-detail-item"><a href="/menu.es?mid=a10201030000">ESG 지속가능경영보고서</a></li>
+       </ul>
+ </li>
+ <li class="sub02 __plus"><a href="/menu.es?mid=a10202020000">E환경 (ECO LH)</a>
+       <ul class="lnb-detail">
+          <li class="lnb-detail-item"><a href="/menu.es?mid=a10202020000">환경경영 체계</a></li>
+          <li class="lnb-detail-item"><a href="/menu.es?mid=a10202030100">ESG 채권</a></li>
+       </ul>
+ </li>
+ <li class="sub03 __plus"><a href="/menu.es?mid=a10203020100">S사회 (HOPE LH)</a>
+       <ul class="lnb-detail">
+          <li class="lnb-detail-item"><a href="/menu.es?mid=a10203020100">고객헌장</a></li>
+          <li class="lnb-detail-item"><a href="/menu.es?mid=a10203030100">안전/재난</a></li>
+          <li class="lnb-detail-item"><a href="/menu.es?mid=a10203040100">인권경영</a></li>
+          <li class="lnb-detail-item"><a href="/menu.es?mid=a10203050100">LH의 동반성장</a></li>
+          <li class="lnb-detail-item"><a href="/menu.es?mid=a10203060100">중소기업 동반성장 프로그램</a></li>
+          <li class="lnb-detail-item"><a href="/menu.es?mid=a10203070100">동반성장 소통마당</a></li>
+       </ul>
+ </li>
+ <li class="sub04 __plus"><a href="/menu.es?mid=a10204020100">G거버넌스 (CLEAN LH)</a>
+       <ul class="lnb-detail">
+          <li class="lnb-detail-item"><a href="/menu.es?mid=a10204020100">경영공시</a></li>
+          <li class="lnb-detail-item"><a href="/menu.es?mid=a10204030101">윤리경영</a></li>
+          <li class="lnb-detail-item"><a href="/menu.es?mid=a10204040100">청렴알리미</a></li>
+       </ul>
+ </li>
+ <li class="sub05 sublast __plus"><a href="/menu.es?mid=a10205010000">자회사 ESG 경영 지원</a>
+       <ul class="lnb-detail">
+          <li class="lnb-detail-item"><a href="/menu.es?mid=a10205010000">자회사 ESG 확산 체계</a></li>
+          <li class="lnb-detail-item"><a href="/menu.es?mid=a10205020100">자회사 ESG 지원 성과</a></li>
+       </ul>
+ </li>
+ </ul>
+ </div>
+ </li>
+ <li class="lnb7 mnlast">
+ <a href="/menu.es?mid=a10702000000">공사소개</a>
+ <div class="submenu">
+ <ul class="sub07">
+ <li class="sub02 subfirst __plus"><a href="/menu.es?mid=a10702010000">LH개요</a>
+       <ul class="lnb-detail">
+          <li class="lnb-detail-item"><a href="/menu.es?mid=a10702010000">경영체계</a></li>
+          <li class="lnb-detail-item"><a href="/menu.es?mid=a10702020000">경영목표</a></li>
+          <li class="lnb-detail-item"><a href="/menu.es?mid=a10702030100">주요연혁</a></li>
+          <li class="lnb-detail-item"><a href="/menu.es?mid=a10702040100">CI/브랜드 소개</a></li>
+       </ul>
+ </li>
+ <li class="sub03 __plus"><a href="/menu.es?mid=a10703010000">CEO</a>
+       <ul class="lnb-detail">
+          <li class="lnb-detail-item"><a href="/menu.es?mid=a10703010100">CEO소개</a></li>
+          <li class="lnb-detail-item"><a href="/menu.es?mid=a10703020000">주요동정</a></li>
+       </ul>
+ </li>
+ <li class="sub04 __plus"><a href="/menu.es?mid=a10704010000">조직도 및 연락처</a>
+       <ul class="lnb-detail">
+          <li class="lnb-detail-item"><a href="/menu.es?mid=a10704010000">조직도 및 연락처</a></li>
+          <li class="lnb-detail-item"><a href="/menu.es?mid=a10704020000">임원소개</a></li>
+       </ul>
+ </li>
+ <li class="sub05 __plus"><a href="/menu.es?mid=a10705010000">지역본부 안내</a>
+       <ul class="lnb-detail">
+          <li class="lnb-detail-item"><a href="/menu.es?mid=a10705010000">서울지역본부</a></li>
+          <li class="lnb-detail-item"><a href="/menu.es?mid=a10705020000">인천지역본부</a></li>
+          <li class="lnb-detail-item"><a href="/menu.es?mid=a10705030000">경기남부지역본부</a></li>
+          <li class="lnb-detail-item"><a href="/menu.es?mid=a10705040000">경기북부지역본부</a></li>
+          <li class="lnb-detail-item"><a href="/menu.es?mid=a10705050000">부산울산지역본부</a></li>
+          <li class="lnb-detail-item"><a href="/menu.es?mid=a10705060000">대전충남지역본부</a></li>
+          <li class="lnb-detail-item"><a href="/menu.es?mid=a10705070000">광주전남지역본부</a></li>
+          <li class="lnb-detail-item"><a href="/menu.es?mid=a10705080000">대구경북지역본부</a></li>
+          <li class="lnb-detail-item"><a href="/menu.es?mid=a10705090000">경남지역본부</a></li>
+          <li class="lnb-detail-item"><a href="/menu.es?mid=a10705100000">세종특별본부</a></li>
+          <li class="lnb-detail-item"><a href="/menu.es?mid=a10705110000">강원지역본부</a></li>
+          <li class="lnb-detail-item"><a href="/menu.es?mid=a10705120000">충북지역본부</a></li>
+          <li class="lnb-detail-item"><a href="/menu.es?mid=a10705130000">전북지역본부</a></li>
+          <li class="lnb-detail-item"><a href="/menu.es?mid=a10705140000">제주지역본부</a></li>
+       </ul>
+ </li>
+ <li class="sub06"><a href="/menu.es?mid=a10706000000">직원광장</a></li>
+ <li class="sub07 __plus"><a href="/menu.es?mid=a10707040000">LH스포츠단</a>
+       <ul class="lnb-detail">
+          <li class="lnb-detail-item"><a href="/menu.es?mid=a10707040000">스포츠단 소개</a></li>
+          <li class="lnb-detail-item"><a href="/menu.es?mid=a10707010000">레슬링팀</a></li>
+          <li class="lnb-detail-item"><a href="/menu.es?mid=a10707020000">양궁팀</a></li>
+          <li class="lnb-detail-item"><a href="/menu.es?mid=a10707030000">근대5종팀</a></li>
+       </ul>
+ </li>
+ <li class="sub08 sublast __plus"><a href="/menu.es?mid=a10708010000">오시는길</a>
+       <ul class="lnb-detail">
+          <li class="lnb-detail-item"><a href="/menu.es?mid=a10708010000">본사</a></li>
+          <li class="lnb-detail-item"><a href="/menu.es?mid=a10708020000">지역본부</a></li>
+          <li class="lnb-detail-item"><a href="/menu.es?mid=a10708030000">마이홈센터</a></li>
+       </ul>
+ </li>
+ </ul>
+ </div>
+ </li>
+ </ul>
+ 
+ 
+    <a href="" class="control close" title="전체메뉴 닫기">전체메뉴 닫기</a>
+ 
+ <div class="closebox">
+    <div></div>
+    <div></div>
+ </div>
+      </nav>
+ 
+ <!-- /global full nav-->
+   </header>
+   <div class="vcontainer">
+   <div class="vdobox">
+      <video class="vdo" autoplay loop muted>
+         <source src="images/KakaoTalk_20240118_113333116.mp4" type="video/mp4">
+         Your browser does not support the video tag.
+      </video>
+      <h1>국민 행복을 위한<br> 한국고지부택곰사의 새로운 움직임! </h1>
+      <p>한국고지부택곰사는 공정하고 투명한 혁신으로 국민에게  행복을 전하기 위해 노력합니다.</p>
+      <div class="circle-box">
+         <div class="btnbox">
+             <div class="line"></div>
+             <p>Scroll Down</p>
+         </div>
+      </div>
+      
+    </div>
+    </div>
+ 
+    <section id="new">
+       <div class="container">
+          <div class="row new-section justify-between animate__fadeInUp">
+             <div>
+                <h1 class="new-title">사람을 향한 <em>더 나은세상,</em><br>한국토지주택공사</h1>
+             </div>
+             <div class="desc-box d-flex justify-between align-center">
+                <div class="img">                 
+                   <img src="images/img_sec1_1.png" alt="귀찮아ㅠ.ㅠ">
+                </div>
+                <div class="desc-text">
+                   <h2>한국토지주택공사는?</h2>
+                   <p>국민주거생활 향상과 국토의 효율적 이용을 도모하여 국민경제 발전에 이바지 합니다.</p>
+                </div>
+             </div>
+          </div>
+          <div class="row animate__fadeInUp animate__delay-1s">
+             <div class="col-3">
+                <div class="card">
+                   <div class="card-img"><i class="ri-store-fill"></i></div>
+                   <div class="card-body">
+                      <h3>청약플러스</h3>
+                      <p>토지 주택 분양 및 임대정보 등 다양한 맞춤서비스</p>
+                   </div>
+                </div>
+             </div>
+             <div class="col-3">
+                <div class="card">
+                   <div class="card-img"><i class="ri-home-heart-fill"></i></div>
+                   <div class="card-body">
+                      <h3>뉴:홈</h3>
+                      <p>3기 신도시 등 사전청약 및 정보제공</p>
+                   </div>
+                </div>
+             </div>
+             <div class="col-3">
+                <div class="card">
+                   <div class="card-img"><i class="ri-group-fill"></i></div>
+                   <div class="card-body">
+                      <h3>마이홈</h3>
+                      <p>공공임대주택 주거급여 등 국가 주거복지 포털</p>
+                   </div>
+                </div>
+             </div>
+             <div class="col-3">
+                <div class="card">
+                   <div class="card-img"><i class="ri-ancient-gate-fill"></i></div>
+                   <div class="card-body">
+                      <h3>내집어디</h3>
+                      <p>내게 딱 맞는 주택 토지 지도에서 찾아보세요</p>
+                   </div>
+                </div>
+             </div>
+          </div>
+          <div class="row mt-50 animate__fadeInUp animate__delay-2s">
+             <div class="col-7">
+                <div class="notice">
+                    <div class="notice-title-box d-flex justify-between align-center">
+                       <h1>Notice</h1>
+                       <nav>
+                           <ul class="notice-nav">
+                              <li class="active"><a href="#">전체</a></li>
+                              <li class="nav-list"><a href="#">공지</a></li>
+                              <li class="nav-list"><a href="#">공모</a></li>
+                              <li class="nav-list"><a href="#">채용정보</a></li>
+                           </ul>
+                       </nav>
+                    </div><!--/notice-title-box-->
+                    <ul class="notice-list">
+                       <li class="n"><a href="#"><span>공지</span></a> <a href="#">제16기 LH 기술심사평가위원 후보자 모집(정정)</a></li>
+                       <li class="m"><a href="#"><span>공모</span></a> <a href="#">광주산정 공공주택지구 도시건축통합계획 설계공모</a></li>
+                       <li class="n"><a href="#"><span>공지</span></a> <a href="#">LH 기축임대주택 친환경자동차 인프라 설치 및 운영 민간</a></li>
+                       <li class="y"><a href="#"><span>채용</span></a> <a href="#">부도주택 매입 법무사 선정결과</a></li>
+                       <li class="n"><a href="#"><span>공지</span></a> <a href="#">제16기 LH 기술심사평가위원 후보자 모집 안</a></li>
+                       <li class="n"><a href="#"><span>공지</span></a> <a href="#">LH 대구경북지역본부 기간제 근로자 채용 공고</a></li>
+                    </ul>  
+                    
+                </div>
+             </div>
+             <div class="col-5">
+                <div class="notice">
+                   <div class="banner-title">
+                      <h1>알림</h1>
+                      <div class="btns">
+                         <span class="count">1</span>/4
+                         <i class="ri-arrow-left-s-line"></i>
+                         <i class="ri-stop-fill playbtn"></i>
+                         <!--<i class="ri-play-fill playbtn"></i>-->
+                         <i class="ri-arrow-right-s-line"></i>
+                      </div>
+                   </div>
+                   <div class="banner">
+                      <div class="banner-in">
+001.                         <img src="images/jpg" alt="001" />
+                         <img src="images/002.jpg" alt="002" />
+                         <img src="images/003.jpg" alt="003" />
+                         <img src="images/004.jpg" alt="004" />
+                      </div>
+                   </div>
+                </div>
+                <div class="notice-service">
+                    <div class="service-title">
+                       <h1>LLH콜센터</h1>
+                       <p>1600-1004</p>
+                    </div>
+                    <div class="service-time">
+                       <p>상담시간 : 09:00 ~ 18:00 (토, 일, 공휴일 제외)</p>
+                       <p>하자상담 : 1600 - 1004 (ARS 4), 1670 - 8</p>
+                    </div>
+                </div>
+             </div>
+          </div>
+       </div>
+    </section>
+ 
+  <div class="background-blue">
+    <section id="major">
+       <div class="container">
+          <div class="row">
+             <h1 class="new-title"><em>주요사업</em>안내<small>한국토지주택공사의 주요사업 정보를 안내합니다.</small></h1>
+          </div>
+       </div>
+       <div class="row">
+          <div class="col-8">
+             <div class="major-first">
+                 <div class="major-textbox">
+                    <h2><em>주거복지</em>사업</h2>
+                    <ul class="row">
+                        <li class="col-4"><a href="#">청년·신혼부부계층 임대주택</a></li>
+                        <li class="col-4"><a href="#">주거취약계층 임대주택</a></li>
+                        <li class="col-4"><a href="#">무주택 서민 임대주택</a></li>
+                        <li class="col-4"><a href="#">주거급여</a></li>
+                        <li class="col-4"><a href="#">공동주택관리 지원</a></li>
+                        <li class="col-4"><a href="#">공동주택 분쟁조정</a></li>
+                        <li class="col-4"><a href="#">희망상가</a></li>
+                    </ul>
+                 </div>
+             </div>
+          </div>
+          <div class="col-2">
+             <div class="major-second">
+                 <h2 class="tsf">토지사업</h2>
+                 <a href="#" class="circle">+</a>
+             </div>
+          </div>
+          <div class="col-2">
+             <div class="major-third">
+                 <h2  class="tsf">주택사업</h2>
+                 <a href="#" class="circle">+</a>
+             </div>
+          </div>
+       </div>
+    </section>
+ </div>
+ <div class="quick-menu animate__fadeInUp animate__delay-1s">
+   <div class="quick-menu-top animate__fadeInUp">
+      <div class="quick-menu-top-q">
+         자주찾는 Quick menu
+      </div>
+      <h1>국민과 함께 <p class="blue">소통</p>하는 한국고지부택곰사</h1>
+   </div>
+   <div class="quick-menu-bottom animate__fadeInUp animate__delay-1s">
+      <a href="#"><div class="quick-menu-bottom-q"><i class="ri-file-list-line"></i><p>소통과 신고안내</p></div></a>
+      <a href="#"><div class="quick-menu-bottom-q"><i class="ri-customer-service-line"></i><p>민원신청</p></div></a>
+      <a><div class="quick-menu-bottom-q"><i class="ri-home-office-line"></i><p>정보공개청구</p></div></a>
+      <a href="#"><div class="quick-menu-bottom-q"><i class="ri-user-heart-line"></i><p>직원칭찬</p></div></a>
+      <a href="#"><div class="quick-menu-bottom-q"><i class="ri-question-answer-fill"></i><p>부패 부조리 신고</p></div></a>
+      <a href="#"><div class="quick-menu-bottom-q"><i class="ri-speak-line"></i><p>사업관련 신고</p></div></a>
+   </div>
+ </div>
+ <footer>
+   <div class="footer-top">
+      <p>한국고지부택곰사</p>
+      <ul>
+         <li>
+            <a href="#"><div class="footer-top-q">개인정보처리방침</div></a>
+         </li>
+         <li>
+            <a href="#"><div class="footer-top-q">영상정보처리기기운영/관리방침</div></a>
+         </li>
+         <li>
+            <a href="#"><div class="footer-top-q">이메일무단수집거부</div></a>
+         </li>
+         <li>
+            <a href="#"><div class="footer-top-q">이용안내</div></a>
+         </li>
+      </ul>
+   </div>
+  <hr>
+   <div class="footer-bottom">
+      <ul><p>고객지원</p>
+         <li><a href="#">-청약플러스</a></li>
+         <li><a href="#">-중앙공동주택관리 분쟁조정위원회</a></li>
+         <li><a href="#">-중앙공동주택관리지원센터</a></li>
+         <li><a href="#">-전자조달</a></li>
+         <li><a href="#">-전월세지원센터</a></li>
+         <li><a href="#">-디지털도서관</a></li>
+         <li><a href="#">-임대주택 카쉐어링</a></li>
+         <li><a href="#">-마이홈 포털</a></li>
+         <li><a href="#">-정비사업지원기구</a></li>
+      </ul>
+      <ul><p>업무지원</p>
+         <li><a href="#">-건설기술정보시스템(COTIS)</a></li>
+         <li><a href="#">-감정평가자선정</a></li>
+         <li><a href="#">-기술혁신파트너몰</a></li>
+         <li><a href="#">-대학생건축대전</a></li>
+      </ul>
+      <ul><p>정보제공</p>
+         <li><a href="#">-씨:리얼(SEE:REAL) 부동산 정보</a></li>
+         <li><a href="#">-토지은행</a></li>
+         <li><a href="#">-보상정보</a></li>
+      </ul>
+      <ul><p>부속기관</p>
+         <li><a href="#">-토지주택연구원</a></li>
+         <li><a href="#">-토지주택대학교</a></li>
+         <li><a href="#">-토지주택박물관</a></li>
+         <li><a href="#">-품질시험센터</a></li>
+      </ul>
+      <ul><p>사업안내</p>
+         <li><a href="#">-동탄신도시</a></li>
+         <li><a href="#">-3기 신도시</a></li>
+         <li><a href="#">-공공정원</a></li>
+      </ul>
+   </div>
+   <div class="footer-last">
+      <p>우)52852 경상남도 진주시 충의로 19(충무공동) 대표번호: 1600-0000 / FAX: 055-000-0000(문서과)</p>
+      <p>COPYRIGHT 2023 BY KOREA LAND & HOUSING CORPORATION. ALL RIGHTS RESEVED</p>
+   </div>
+ </footer>
+</body>
+</html>
